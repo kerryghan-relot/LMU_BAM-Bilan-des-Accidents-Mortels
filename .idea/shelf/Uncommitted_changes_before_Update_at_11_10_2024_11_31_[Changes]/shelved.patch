@@ -1,0 +1,486 @@
+Index: sample.ipynb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n \"cells\": [\r\n  {\r\n   \"cell_type\": \"markdown\",\r\n   \"id\": \"8a77807f92f26ee\",\r\n   \"metadata\": {},\r\n   \"source\": [\r\n    \"# This is a sample Jupyter Notebook\\n\",\r\n    \"\\n\",\r\n    \"Below is an example of a code cell. \\n\",\r\n    \"Put your cursor into the cell and press Shift+Enter to execute it and select the next one, or click 'Run Cell' button.\\n\",\r\n    \"\\n\",\r\n    \"Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.\\n\",\r\n    \"\\n\",\r\n    \"To learn more about Jupyter Notebooks in PyCharm, see [help](https://www.jetbrains.com/help/pycharm/ipython-notebook-support.html).\\n\",\r\n    \"For an overview of PyCharm, go to Help -> Learn IDE features or refer to [our documentation](https://www.jetbrains.com/help/pycharm/getting-started.html).\"\r\n   ]\r\n  },\r\n  {\r\n   \"cell_type\": \"code\",\r\n   \"execution_count\": null,\r\n   \"id\": \"fbc121e30a2defb3\",\r\n   \"metadata\": {},\r\n   \"outputs\": [],\r\n   \"source\": [\r\n    \"print(\\\"Hello World!\\\")\"\r\n   ]\r\n  }\r\n ],\r\n \"metadata\": {\r\n  \"kernelspec\": {\r\n   \"display_name\": \"Python 3 (ipykernel)\",\r\n   \"language\": \"python\",\r\n   \"name\": \"python3\"\r\n  },\r\n  \"language_info\": {\r\n   \"codemirror_mode\": {\r\n    \"name\": \"ipython\",\r\n    \"version\": 3\r\n   },\r\n   \"file_extension\": \".py\",\r\n   \"mimetype\": \"text/x-python\",\r\n   \"name\": \"python\",\r\n   \"nbconvert_exporter\": \"python\",\r\n   \"pygments_lexer\": \"ipython3\",\r\n   \"version\": \"3.12.3\"\r\n  }\r\n },\r\n \"nbformat\": 4,\r\n \"nbformat_minor\": 5\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sample.ipynb b/sample.ipynb
+--- a/sample.ipynb	(revision 2db01fed0349470f343d47a7e13524b423a1bca5)
++++ b/sample.ipynb	(date 1728638165721)
+@@ -1,9 +1,8 @@
+ {
+  "cells": [
+   {
+-   "cell_type": "markdown",
+-   "id": "8a77807f92f26ee",
+    "metadata": {},
++   "cell_type": "markdown",
+    "source": [
+     "# This is a sample Jupyter Notebook\n",
+     "\n",
+@@ -14,36 +13,35 @@
+     "\n",
+     "To learn more about Jupyter Notebooks in PyCharm, see [help](https://www.jetbrains.com/help/pycharm/ipython-notebook-support.html).\n",
+     "For an overview of PyCharm, go to Help -> Learn IDE features or refer to [our documentation](https://www.jetbrains.com/help/pycharm/getting-started.html)."
+-   ]
++   ],
++   "id": "8a77807f92f26ee"
+   },
+   {
++   "metadata": {},
+    "cell_type": "code",
++   "outputs": [],
+    "execution_count": null,
+-   "id": "fbc121e30a2defb3",
+-   "metadata": {},
+-   "outputs": [],
+-   "source": [
+-    "print(\"Hello World!\")"
+-   ]
++   "source": "print(\"Hello World!\")",
++   "id": "fbc121e30a2defb3"
+   }
+  ],
+  "metadata": {
+   "kernelspec": {
+-   "display_name": "Python 3 (ipykernel)",
++   "display_name": "Python 3",
+    "language": "python",
+    "name": "python3"
+   },
+   "language_info": {
+    "codemirror_mode": {
+     "name": "ipython",
+-    "version": 3
++    "version": 2
+    },
+    "file_extension": ".py",
+    "mimetype": "text/x-python",
+    "name": "python",
+    "nbconvert_exporter": "python",
+-   "pygments_lexer": "ipython3",
+-   "version": "3.12.3"
++   "pygments_lexer": "ipython2",
++   "version": "2.7.6"
+   }
+  },
+  "nbformat": 4,
+Index: Template.ipynb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n \"cells\": [\r\n  {\r\n   \"cell_type\": \"code\",\r\n   \"execution_count\": 2,\r\n   \"id\": \"d606eb0a-b7e1-4f0a-a6f2-790bfd15528a\",\r\n   \"metadata\": {},\r\n   \"outputs\": [],\r\n   \"source\": [\r\n    \"# Importer les bibliothèques\\n\",\r\n    \"import os\\n\",\r\n    \"\\n\",\r\n    \"import pandas as pd\\n\",\r\n    \"import matplotlib.pyplot as plt\\n\",\r\n    \"# import seaborn as sns\"\r\n   ]\r\n  },\r\n  {\r\n   \"cell_type\": \"code\",\r\n   \"execution_count\": 5,\r\n   \"id\": \"50edd079-7af8-49e7-8161-44c44ebf7761\",\r\n   \"metadata\": {},\r\n   \"outputs\": [\r\n    {\r\n     \"name\": \"stdout\",\r\n     \"output_type\": \"stream\",\r\n     \"text\": [\r\n      \"./data/2022\\\\usagers-2022.csv\\n\"\r\n     ]\r\n    },\r\n    {\r\n     \"data\": {\r\n      \"text/html\": [\r\n       \"<div>\\n\",\r\n       \"<style scoped>\\n\",\r\n       \"    .dataframe tbody tr th:only-of-type {\\n\",\r\n       \"        vertical-align: middle;\\n\",\r\n       \"    }\\n\",\r\n       \"\\n\",\r\n       \"    .dataframe tbody tr th {\\n\",\r\n       \"        vertical-align: top;\\n\",\r\n       \"    }\\n\",\r\n       \"\\n\",\r\n       \"    .dataframe thead th {\\n\",\r\n       \"        text-align: right;\\n\",\r\n       \"    }\\n\",\r\n       \"</style>\\n\",\r\n       \"<table border=\\\"1\\\" class=\\\"dataframe\\\">\\n\",\r\n       \"  <thead>\\n\",\r\n       \"    <tr style=\\\"text-align: right;\\\">\\n\",\r\n       \"      <th></th>\\n\",\r\n       \"      <th>Num_Acc</th>\\n\",\r\n       \"      <th>id_usager</th>\\n\",\r\n       \"      <th>id_vehicule</th>\\n\",\r\n       \"      <th>num_veh</th>\\n\",\r\n       \"      <th>place</th>\\n\",\r\n       \"      <th>catu</th>\\n\",\r\n       \"      <th>grav</th>\\n\",\r\n       \"      <th>sexe</th>\\n\",\r\n       \"      <th>an_nais</th>\\n\",\r\n       \"      <th>trajet</th>\\n\",\r\n       \"      <th>secu1</th>\\n\",\r\n       \"      <th>secu2</th>\\n\",\r\n       \"      <th>secu3</th>\\n\",\r\n       \"      <th>locp</th>\\n\",\r\n       \"      <th>actp</th>\\n\",\r\n       \"      <th>etatp</th>\\n\",\r\n       \"    </tr>\\n\",\r\n       \"  </thead>\\n\",\r\n       \"  <tbody>\\n\",\r\n       \"    <tr>\\n\",\r\n       \"      <th>0</th>\\n\",\r\n       \"      <td>202200000001</td>\\n\",\r\n       \"      <td>1 099 700</td>\\n\",\r\n       \"      <td>813 952</td>\\n\",\r\n       \"      <td>A01</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>3</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>2008.0</td>\\n\",\r\n       \"      <td>5</td>\\n\",\r\n       \"      <td>2</td>\\n\",\r\n       \"      <td>8</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"    </tr>\\n\",\r\n       \"    <tr>\\n\",\r\n       \"      <th>1</th>\\n\",\r\n       \"      <td>202200000001</td>\\n\",\r\n       \"      <td>1 099 701</td>\\n\",\r\n       \"      <td>813 953</td>\\n\",\r\n       \"      <td>B01</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1948.0</td>\\n\",\r\n       \"      <td>5</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>8</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"    </tr>\\n\",\r\n       \"    <tr>\\n\",\r\n       \"      <th>2</th>\\n\",\r\n       \"      <td>202200000002</td>\\n\",\r\n       \"      <td>1 099 698</td>\\n\",\r\n       \"      <td>813 950</td>\\n\",\r\n       \"      <td>B01</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>4</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1988.0</td>\\n\",\r\n       \"      <td>9</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>0</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"      <td>0</td>\\n\",\r\n       \"      <td>0</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"    </tr>\\n\",\r\n       \"    <tr>\\n\",\r\n       \"      <th>3</th>\\n\",\r\n       \"      <td>202200000002</td>\\n\",\r\n       \"      <td>1 099 699</td>\\n\",\r\n       \"      <td>813 951</td>\\n\",\r\n       \"      <td>A01</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1970.0</td>\\n\",\r\n       \"      <td>4</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>0</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"      <td>0</td>\\n\",\r\n       \"      <td>0</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"    </tr>\\n\",\r\n       \"    <tr>\\n\",\r\n       \"      <th>4</th>\\n\",\r\n       \"      <td>202200000003</td>\\n\",\r\n       \"      <td>1 099 696</td>\\n\",\r\n       \"      <td>813 948</td>\\n\",\r\n       \"      <td>A01</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>2002.0</td>\\n\",\r\n       \"      <td>0</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>0</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"    </tr>\\n\",\r\n       \"  </tbody>\\n\",\r\n       \"</table>\\n\",\r\n       \"</div>\"\r\n      ],\r\n      \"text/plain\": [\r\n       \"        Num_Acc  id_usager id_vehicule num_veh  place  catu  grav  sexe  \\\\\\n\",\r\n       \"0  202200000001  1 099 700     813 952     A01      1     1     3     1   \\n\",\r\n       \"1  202200000001  1 099 701     813 953     B01      1     1     1     1   \\n\",\r\n       \"2  202200000002  1 099 698     813 950     B01      1     1     4     1   \\n\",\r\n       \"3  202200000002  1 099 699     813 951     A01      1     1     1     1   \\n\",\r\n       \"4  202200000003  1 099 696     813 948     A01      1     1     1     1   \\n\",\r\n       \"\\n\",\r\n       \"   an_nais  trajet  secu1  secu2  secu3  locp actp  etatp  \\n\",\r\n       \"0   2008.0       5      2      8     -1    -1   -1     -1  \\n\",\r\n       \"1   1948.0       5      1      8     -1    -1   -1     -1  \\n\",\r\n       \"2   1988.0       9      1      0     -1     0    0     -1  \\n\",\r\n       \"3   1970.0       4      1      0     -1     0    0     -1  \\n\",\r\n       \"4   2002.0       0      1      0     -1    -1   -1     -1  \"\r\n      ]\r\n     },\r\n     \"execution_count\": 5,\r\n     \"metadata\": {},\r\n     \"output_type\": \"execute_result\"\r\n    }\r\n   ],\r\n   \"source\": [\r\n    \"# Charger les données usagers\\n\",\r\n    \"data_fn_2021 = {\\n\",\r\n    \"    'lieux':'lieux-2021.csv', \\n\",\r\n    \"    'vehicules':'vehicules-2021.csv',\\n\",\r\n    \"    'carcteristiques':'carcteristiques-2021.csv',\\n\",\r\n    \"    'usagers':'usagers-2021.csv'\\n\",\r\n    \"}\\n\",\r\n    \"\\n\",\r\n    \"data_fn_2022 = {\\n\",\r\n    \"    'lieux':'lieux-2022.csv', \\n\",\r\n    \"    'vehicules':'vehicules-2022.csv',\\n\",\r\n    \"    'carcteristiques':'carcteristiques-2022.csv',\\n\",\r\n    \"    'usagers':'usagers-2022.csv'\\n\",\r\n    \"}\\n\",\r\n    \"\\n\",\r\n    \"base_fpath = './data/2022' \\n\",\r\n    \"usagers_fpath = os.path.join(base_fpath, data_fn_2022['usagers'])\\n\",\r\n    \"print('{}'.format(usagers_fpath))\\n\",\r\n    \"\\n\",\r\n    \"\\n\",\r\n    \"df = pd.read_csv(usagers_fpath, sep=';')  # Attention à l'encodage et au séparateur\\n\",\r\n    \"\\n\",\r\n    \"\\n\",\r\n    \"# Aperçu des données\\n\",\r\n    \"df.head()\"\r\n   ]\r\n  },\r\n  {\r\n   \"cell_type\": \"code\",\r\n   \"execution_count\": 6,\r\n   \"id\": \"dd7ee495-8860-4ece-b270-ce9bc8bde4b3\",\r\n   \"metadata\": {},\r\n   \"outputs\": [\r\n    {\r\n     \"name\": \"stdout\",\r\n     \"output_type\": \"stream\",\r\n     \"text\": [\r\n      \"<class 'pandas.core.frame.DataFrame'>\\n\",\r\n      \"RangeIndex: 126662 entries, 0 to 126661\\n\",\r\n      \"Data columns (total 16 columns):\\n\",\r\n      \" #   Column       Non-Null Count   Dtype  \\n\",\r\n      \"---  ------       --------------   -----  \\n\",\r\n      \" 0   Num_Acc      126662 non-null  int64  \\n\",\r\n      \" 1   id_usager    126662 non-null  object \\n\",\r\n      \" 2   id_vehicule  126662 non-null  object \\n\",\r\n      \" 3   num_veh      126662 non-null  object \\n\",\r\n      \" 4   place        126662 non-null  int64  \\n\",\r\n      \" 5   catu         126662 non-null  int64  \\n\",\r\n      \" 6   grav         126662 non-null  int64  \\n\",\r\n      \" 7   sexe         126662 non-null  int64  \\n\",\r\n      \" 8   an_nais      123788 non-null  float64\\n\",\r\n      \" 9   trajet       126662 non-null  int64  \\n\",\r\n      \" 10  secu1        126662 non-null  int64  \\n\",\r\n      \" 11  secu2        126662 non-null  int64  \\n\",\r\n      \" 12  secu3        126662 non-null  int64  \\n\",\r\n      \" 13  locp         126662 non-null  int64  \\n\",\r\n      \" 14  actp         126662 non-null  object \\n\",\r\n      \" 15  etatp        126662 non-null  int64  \\n\",\r\n      \"dtypes: float64(1), int64(11), object(4)\\n\",\r\n      \"memory usage: 15.5+ MB\\n\"\r\n     ]\r\n    },\r\n    {\r\n     \"data\": {\r\n      \"text/plain\": [\r\n       \"Index(['Num_Acc', 'id_usager', 'id_vehicule', 'num_veh', 'place', 'catu',\\n\",\r\n       \"       'grav', 'sexe', 'an_nais', 'trajet', 'secu1', 'secu2', 'secu3', 'locp',\\n\",\r\n       \"       'actp', 'etatp'],\\n\",\r\n       \"      dtype='object')\"\r\n      ]\r\n     },\r\n     \"execution_count\": 6,\r\n     \"metadata\": {},\r\n     \"output_type\": \"execute_result\"\r\n    }\r\n   ],\r\n   \"source\": [\r\n    \"# Information sur les colonnes et les types de données\\n\",\r\n    \"df.info()\\n\",\r\n    \"\\n\",\r\n    \"# Description statistique\\n\",\r\n    \"df.describe()\\n\",\r\n    \"\\n\",\r\n    \"# Affichage des colonnes\\n\",\r\n    \"df.columns\"\r\n   ]\r\n  },\r\n  {\r\n   \"cell_type\": \"code\",\r\n   \"execution_count\": 7,\r\n   \"id\": \"4ae1ce58-0dfd-4414-991d-e268c0cd2a56\",\r\n   \"metadata\": {},\r\n   \"outputs\": [],\r\n   \"source\": [\r\n    \"# Vérification des valeurs manquantes\\n\",\r\n    \"df.isnull().sum()\\n\",\r\n    \"\\n\",\r\n    \"# Suppression des lignes ou colonnes avec des valeurs manquantes (optionnel)\\n\",\r\n    \"df.dropna(inplace=True)\"\r\n   ]\r\n  },\r\n  {\r\n   \"cell_type\": \"code\",\r\n   \"execution_count\": 11,\r\n   \"id\": \"6343e9c0-3e92-4e9b-ad19-1f322c5734f2\",\r\n   \"metadata\": {},\r\n   \"outputs\": [\r\n    {\r\n     \"data\": {\r\n      \"text/plain\": [\r\n       \"0         3\\n\",\r\n       \"1         1\\n\",\r\n       \"2         4\\n\",\r\n       \"3         1\\n\",\r\n       \"4         1\\n\",\r\n       \"         ..\\n\",\r\n       \"126657    1\\n\",\r\n       \"126658    3\\n\",\r\n       \"126659    4\\n\",\r\n       \"126660    3\\n\",\r\n       \"126661    1\\n\",\r\n       \"Name: grav, Length: 123788, dtype: int64\"\r\n      ]\r\n     },\r\n     \"execution_count\": 11,\r\n     \"metadata\": {},\r\n     \"output_type\": \"execute_result\"\r\n    }\r\n   ],\r\n   \"source\": [\r\n    \"# Sélection de colonnes \\\"pertinentes\\\" et exclures d'autres \\n\",\r\n    \"\\n\",\r\n    \"exclud_var = ['id_usager', 'id_vehicule', 'num_veh', 'actp']\\n\",\r\n    \"df.columns.to_list()\\n\",\r\n    \"X = df[[col for col in df.columns.to_list() if col != target_var and not col in exclud_var]]\\n\",\r\n    \"\\n\",\r\n    \"\\n\",\r\n    \"# Gravité de l'accident est notre variable cible\\n\",\r\n    \"target_var = 'grav'\\n\",\r\n    \"y = df[target_var]\\n\",\r\n    \"y\"\r\n   ]\r\n  },\r\n  {\r\n   \"cell_type\": \"code\",\r\n   \"execution_count\": 12,\r\n   \"id\": \"044e34c6-0b14-4a7a-98f9-c644bd5fe76e\",\r\n   \"metadata\": {},\r\n   \"outputs\": [\r\n    {\r\n     \"data\": {\r\n      \"text/html\": [\r\n       \"<div>\\n\",\r\n       \"<style scoped>\\n\",\r\n       \"    .dataframe tbody tr th:only-of-type {\\n\",\r\n       \"        vertical-align: middle;\\n\",\r\n       \"    }\\n\",\r\n       \"\\n\",\r\n       \"    .dataframe tbody tr th {\\n\",\r\n       \"        vertical-align: top;\\n\",\r\n       \"    }\\n\",\r\n       \"\\n\",\r\n       \"    .dataframe thead th {\\n\",\r\n       \"        text-align: right;\\n\",\r\n       \"    }\\n\",\r\n       \"</style>\\n\",\r\n       \"<table border=\\\"1\\\" class=\\\"dataframe\\\">\\n\",\r\n       \"  <thead>\\n\",\r\n       \"    <tr style=\\\"text-align: right;\\\">\\n\",\r\n       \"      <th></th>\\n\",\r\n       \"      <th>Num_Acc</th>\\n\",\r\n       \"      <th>place</th>\\n\",\r\n       \"      <th>catu</th>\\n\",\r\n       \"      <th>sexe</th>\\n\",\r\n       \"      <th>an_nais</th>\\n\",\r\n       \"      <th>trajet</th>\\n\",\r\n       \"      <th>secu1</th>\\n\",\r\n       \"      <th>secu2</th>\\n\",\r\n       \"      <th>secu3</th>\\n\",\r\n       \"      <th>locp</th>\\n\",\r\n       \"      <th>etatp</th>\\n\",\r\n       \"    </tr>\\n\",\r\n       \"  </thead>\\n\",\r\n       \"  <tbody>\\n\",\r\n       \"    <tr>\\n\",\r\n       \"      <th>0</th>\\n\",\r\n       \"      <td>202200000001</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>2008.0</td>\\n\",\r\n       \"      <td>5</td>\\n\",\r\n       \"      <td>2</td>\\n\",\r\n       \"      <td>8</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"    </tr>\\n\",\r\n       \"    <tr>\\n\",\r\n       \"      <th>1</th>\\n\",\r\n       \"      <td>202200000001</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1948.0</td>\\n\",\r\n       \"      <td>5</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>8</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"    </tr>\\n\",\r\n       \"    <tr>\\n\",\r\n       \"      <th>2</th>\\n\",\r\n       \"      <td>202200000002</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1988.0</td>\\n\",\r\n       \"      <td>9</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>0</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"      <td>0</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"    </tr>\\n\",\r\n       \"    <tr>\\n\",\r\n       \"      <th>3</th>\\n\",\r\n       \"      <td>202200000002</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1970.0</td>\\n\",\r\n       \"      <td>4</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>0</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"      <td>0</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"    </tr>\\n\",\r\n       \"    <tr>\\n\",\r\n       \"      <th>4</th>\\n\",\r\n       \"      <td>202200000003</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>2002.0</td>\\n\",\r\n       \"      <td>0</td>\\n\",\r\n       \"      <td>1</td>\\n\",\r\n       \"      <td>0</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"      <td>-1</td>\\n\",\r\n       \"    </tr>\\n\",\r\n       \"  </tbody>\\n\",\r\n       \"</table>\\n\",\r\n       \"</div>\"\r\n      ],\r\n      \"text/plain\": [\r\n       \"        Num_Acc  place  catu  sexe  an_nais  trajet  secu1  secu2  secu3  \\\\\\n\",\r\n       \"0  202200000001      1     1     1   2008.0       5      2      8     -1   \\n\",\r\n       \"1  202200000001      1     1     1   1948.0       5      1      8     -1   \\n\",\r\n       \"2  202200000002      1     1     1   1988.0       9      1      0     -1   \\n\",\r\n       \"3  202200000002      1     1     1   1970.0       4      1      0     -1   \\n\",\r\n       \"4  202200000003      1     1     1   2002.0       0      1      0     -1   \\n\",\r\n       \"\\n\",\r\n       \"   locp  etatp  \\n\",\r\n       \"0    -1     -1  \\n\",\r\n       \"1    -1     -1  \\n\",\r\n       \"2     0     -1  \\n\",\r\n       \"3     0     -1  \\n\",\r\n       \"4    -1     -1  \"\r\n      ]\r\n     },\r\n     \"execution_count\": 12,\r\n     \"metadata\": {},\r\n     \"output_type\": \"execute_result\"\r\n    }\r\n   ],\r\n   \"source\": [\r\n    \"# Encodage des variables catégorielles avec pandas\\n\",\r\n    \"X_encoded = pd.get_dummies(X, drop_first=True)\\n\",\r\n    \"\\n\",\r\n    \"# Vérification du jeu de données encodé\\n\",\r\n    \"X_encoded.head()\"\r\n   ]\r\n  },\r\n  {\r\n   \"cell_type\": \"code\",\r\n   \"execution_count\": 13,\r\n   \"id\": \"746732d1-ecf6-4b22-ba7d-7daa71f6916d\",\r\n   \"metadata\": {},\r\n   \"outputs\": [\r\n    {\r\n     \"name\": \"stdout\",\r\n     \"output_type\": \"stream\",\r\n     \"text\": [\r\n      \"              precision    recall  f1-score   support\\n\",\r\n      \"\\n\",\r\n      \"          -1       0.00      0.00      0.00         1\\n\",\r\n      \"           1       0.59      0.68      0.63     15254\\n\",\r\n      \"           2       0.13      0.06      0.09      1096\\n\",\r\n      \"           3       0.33      0.25      0.29      5754\\n\",\r\n      \"           4       0.53      0.52      0.52     15032\\n\",\r\n      \"\\n\",\r\n      \"    accuracy                           0.53     37137\\n\",\r\n      \"   macro avg       0.32      0.30      0.31     37137\\n\",\r\n      \"weighted avg       0.51      0.53      0.52     37137\\n\",\r\n      \"\\n\",\r\n      \"Accuracy: 0.5296065918087083\\n\"\r\n     ]\r\n    },\r\n    {\r\n     \"name\": \"stderr\",\r\n     \"output_type\": \"stream\",\r\n     \"text\": [\r\n      \"C:\\\\Users\\\\blast\\\\miniconda3\\\\Lib\\\\site-packages\\\\sklearn\\\\metrics\\\\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\\n\",\r\n      \"  _warn_prf(average, modifier, f\\\"{metric.capitalize()} is\\\", len(result))\\n\",\r\n      \"C:\\\\Users\\\\blast\\\\miniconda3\\\\Lib\\\\site-packages\\\\sklearn\\\\metrics\\\\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\\n\",\r\n      \"  _warn_prf(average, modifier, f\\\"{metric.capitalize()} is\\\", len(result))\\n\",\r\n      \"C:\\\\Users\\\\blast\\\\miniconda3\\\\Lib\\\\site-packages\\\\sklearn\\\\metrics\\\\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\\n\",\r\n      \"  _warn_prf(average, modifier, f\\\"{metric.capitalize()} is\\\", len(result))\\n\"\r\n     ]\r\n    }\r\n   ],\r\n   \"source\": [\r\n    \"from sklearn.model_selection import train_test_split\\n\",\r\n    \"from sklearn.ensemble import RandomForestClassifier\\n\",\r\n    \"from sklearn.metrics import classification_report, accuracy_score\\n\",\r\n    \"\\n\",\r\n    \"# Division des données\\n\",\r\n    \"X_train, X_test, y_train, y_test = train_test_split(X_encoded, y, test_size=0.3, random_state=42)\\n\",\r\n    \"\\n\",\r\n    \"# Modèle RandomForest\\n\",\r\n    \"model = RandomForestClassifier(random_state=42)\\n\",\r\n    \"model.fit(X_train, y_train)\\n\",\r\n    \"\\n\",\r\n    \"# Prédictions sur l'ensemble de test\\n\",\r\n    \"y_pred = model.predict(X_test)\\n\",\r\n    \"\\n\",\r\n    \"# Évaluation du modèle\\n\",\r\n    \"print(classification_report(y_test, y_pred))\\n\",\r\n    \"print(f\\\"Accuracy: {accuracy_score(y_test, y_pred)}\\\")\"\r\n   ]\r\n  },\r\n  {\r\n   \"cell_type\": \"code\",\r\n   \"execution_count\": 14,\r\n   \"id\": \"a470dd0a-6cd4-41b4-88ec-a9f6a3a89a6a\",\r\n   \"metadata\": {},\r\n   \"outputs\": [\r\n    {\r\n     \"name\": \"stdout\",\r\n     \"output_type\": \"stream\",\r\n     \"text\": [\r\n      \"              precision    recall  f1-score   support\\n\",\r\n      \"\\n\",\r\n      \"          -1       0.00      0.00      0.00         1\\n\",\r\n      \"           1       0.59      0.68      0.63     15254\\n\",\r\n      \"           2       0.13      0.06      0.09      1096\\n\",\r\n      \"           3       0.33      0.25      0.29      5754\\n\",\r\n      \"           4       0.53      0.52      0.52     15032\\n\",\r\n      \"\\n\",\r\n      \"    accuracy                           0.53     37137\\n\",\r\n      \"   macro avg       0.32      0.30      0.31     37137\\n\",\r\n      \"weighted avg       0.51      0.53      0.52     37137\\n\",\r\n      \"\\n\"\r\n     ]\r\n    },\r\n    {\r\n     \"name\": \"stderr\",\r\n     \"output_type\": \"stream\",\r\n     \"text\": [\r\n      \"C:\\\\Users\\\\blast\\\\miniconda3\\\\Lib\\\\site-packages\\\\sklearn\\\\metrics\\\\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\\n\",\r\n      \"  _warn_prf(average, modifier, f\\\"{metric.capitalize()} is\\\", len(result))\\n\",\r\n      \"C:\\\\Users\\\\blast\\\\miniconda3\\\\Lib\\\\site-packages\\\\sklearn\\\\metrics\\\\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\\n\",\r\n      \"  _warn_prf(average, modifier, f\\\"{metric.capitalize()} is\\\", len(result))\\n\",\r\n      \"C:\\\\Users\\\\blast\\\\miniconda3\\\\Lib\\\\site-packages\\\\sklearn\\\\metrics\\\\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.\\n\",\r\n      \"  _warn_prf(average, modifier, f\\\"{metric.capitalize()} is\\\", len(result))\\n\"\r\n     ]\r\n    },\r\n    {\r\n     \"data\": {\r\n      \"image/png\": \"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eLw3xjRp+6H+zbXDe96ORaMNGzboueeeU0FBgbp16+av8qzT0vGor6/XxIkTlZ2drb59+waqPKt482+joaFBDodD+fn5GjJkiMaMGaMlS5Zo3bp1zAr5gDdjcfDgQc2YMUPPPvus9u3bp+3bt+vw4cPuZ2QisHxx/m5T/zOva9euCg0NbZLkT5w40SQ1NurevXuz/cPCwtSlSxe/1drWXclYNCooKFB6ero2btyoe++9159lWsPb8Th9+rSKi4tVUlKip556StLFk7ExRmFhYdqxY4dGjhwZkNrbmiv5txETE6MePXrI5XK52xITE2WM0bFjx3TzzTf7tea26krGIicnR8OHD9fcuXMlSbfddps6dOig1NRUPf/881xFCCBfnb/b1IxQRESEkpKSVFRU5NFeVFSkYcOGNbtNSkpKk/47duxQcnKywsPD/VZrW3clYyFdnAmaNm2a3nrrLa65+5C34xEVFaVPP/1U+/fvd78yMjJ0yy23aP/+/Ro6dGigSm9zruTfxvDhw/Xll1/qzJkz7rbPPvtMISEh6tmzp1/rbcuuZCy++eYbhYR4njpDQ0Ml/f/ZCASGz87fXi2tbgUafwq5evVqc/DgQTNr1izToUMH88UXXxhjjJk/f76ZPHmyu3/jz+9mz55tDh48aFavXs3P533E27F46623TFhYmFm+fLkpLy93v06dOhWsr9CmeDse38evxnzH27E4ffq06dmzp/mHf/gHc+DAAbNz505z8803m+nTpwfrK7QZ3o7F2rVrTVhYmMnNzTWff/65+fDDD01ycrIZMmRIsL5Cm3H69GlTUlJiSkpKjCSzZMkSU1JS4r6Vgb/O320uCBljzPLly018fLyJiIgwgwcPNjt37nR/NnXqVDNixAiP/r/73e/MoEGDTEREhLnxxhtNXl5egCtuu7wZixEjRhhJTV5Tp04NfOFtlLf/Nr6LIORb3o5FaWmpuffee027du1Mz549TWZmpvnmm28CXHXb5O1YLFu2zPTr18+0a9fOxMTEmEmTJpljx44FuOq257e//e1lzwH+On87jGEuDwAA2KlNrRECAADwBkEIAABYiyAEAACsRRACAADWIggBAABrEYQAAIC1CEIAAMBaBCEAAfPcc8/p9ttvd7+fNm2axo0bF/A6vvjiCzkcDu3fv99vx/j+d70SgagTsB1BCLDctGnT5HA45HA4FB4ert69e2vOnDk6e/as34/9yiuvaN26dS3qG+hQcNddd2nWrFkBORaA4GlTT58HcGX+9m//VmvXrtWFCxe0a9cuTZ8+XWfPnlVeXl6TvhcuXPDZA4m/+zR1AAgGZoQAyOl0qnv37oqLi9PEiRM1adIkvfvuu5L+/yWeNWvWqHfv3nI6nTLGqLq6Wv/8z/+sbt26KSoqSiNHjtQnn3zisd9/+7d/U3R0tK677jqlp6fr22+/9fj8+5fGGhoa9OKLL6pPnz5yOp3q1auXXnjhBUlSQkKCJGnQoEFyOBy666673NutXbtWiYmJioyM1K233qrc3FyP43z88ccaNGiQIiMjlZycrJKSkqv+mz3zzDPq27ev2rdvr969e+tnP/uZLly40KTfihUrFBcXp/bt2+sf//EfderUKY/Pf6h2AP7FjBCAJtq1a+dxUv/LX/6id955R5s3b1ZoaKgk6f7771fnzp1VWFgol8ulFStW6J577tFnn32mzp0765133tHChQu1fPlypaam6s0339SyZcvUu3fvSx43KytLK1eu1C9/+UvdeeedKi8v1x//+EdJF8PMkCFD9N///d/q37+/IiIiJEkrV67UwoUL9dprr2nQoEEqKSnRY489pg4dOmjq1Kk6e/as/u7v/k4jR47Uf/zHf+jw4cOaOXPmVf+NrrvuOq1bt06xsbH69NNP9dhjj+m6667TvHnzmvzd3nvvPdXU1Cg9PV1PPvmk8vPzW1Q7gAC42qfFAmjdpk6dah588EH3+9///vemS5cuZvz48caYi0+dDw8PNydOnHD3+c1vfmOioqLMt99+67Gvm266yaxYscIYY0xKSorJyMjw+Hzo0KEeT7D/7rFramqM0+k0K1eubLbOw4cPG0mmpKTEoz0uLs689dZbHm0///nPTUpKijHGmBUrVpjOnTubs2fPuj/Py8trdl/fNWLECDNz5sxLfv59ixcvNklJSe73CxcuNKGhoebo0aPutvfff9+EhISY8vLyFtV+qe8MwHeYEQKgX/3qV+rYsaPq6up04cIFPfjgg3r11Vfdn8fHx+uGG25wv9+3b5/OnDmjLl26eOzn3Llz+vzzzyVJpaWlysjI8Pg8JSVFv/3tb5utobS0VLW1tbrnnntaXPfXX3+to0ePKj09XY899pi7va6uzr3+qLS0VAMHDlT79u096rhamzZt0tKlS/WXv/xFZ86cUV1dnaKiojz69OrVSz179vQ4bkNDg/70pz8pNDT0B2sH4H8EIQC6++67lZeXp/DwcMXGxjZZDN2hQweP9w0NDYqJidHvfve7Jvvq1KnTFdXQrl07r7dpaGiQdPES09ChQz0+a7yEZ4y5onou56OPPtLDDz+s7OxsjRo1Si6XS2+//bZefvnly27ncDjc/9mS2gH4H0EIgDp06KA+ffq0uP/gwYNVUVGhsLAw3Xjjjc32SUxM1EcffaQpU6a42z766KNL7vPmm29Wu3bt9Jvf/EbTp09v8nnjmqD6+np3W3R0tHr06KFDhw5p0qRJze63X79+evPNN3Xu3Dl32LpcHS2xe/duxcfHa8GCBe62I0eONOlXVlamL7/8UrGxsZKkvXv3KiQkRH379m1R7QD8jyAEwGv33nuvUlJSNG7cOL344ou65ZZb9OWXX6qwsFDjxo1TcnKyZs6cqalTpyo5OVl33nmn8vPzdeDAgUsulo6MjNQzzzyjefPmKSIiQsOHD9fXX3+tAwcOKD09Xd26dVO7du20fft29ezZU5GRkXK5XHruuec0Y8YMRUVFafTo0aqtrVVxcbH+7//+T5mZmZo4caIWLFig9PR0/fSnP9UXX3yhl156qUXf8+uvv25y36Lu3burT58+Kisr09tvv62//uu/1n/9139p69atzX6nqVOn6qWXXlJNTY1mzJih8ePHq3v37pL0g7UDCIBgL1ICEFzfXyz9fQsXLvRY4NyopqbGPP300yY2NtaEh4ebuLg4M2nSJFNWVubu88ILL5iuXbuajh07mqlTp5p58+ZdcrG0McbU19eb559/3sTHx5vw8HDTq1cv86//+q/uz1euXGni4uJMSEiIGTFihLs9Pz/f3H777SYiIsJcf/315m/+5m/Mli1b3J/v3bvXDBw40ERERJjbb7/dbN68uUWLpSU1eS1cuNAYY8zcuXNNly5dTMeOHc2ECRPML3/5S+NyuZr83XJzc01sbKyJjIw0Dz30kKmqqvI4zuVqZ7E04H8OY/xwAR0AAKAV4IaKAADAWgQhAABgLYIQAACwFkEIAABYiyAEAACsRRACAADWIggBAABrEYQAAIC1CEIAAMBaBCEAAGAtghAAALAWQQgAAFjr/wFElEtMQGG51AAAAABJRU5ErkJggg==\",\r\n      \"text/plain\": [\r\n       \"<Figure size 640x480 with 1 Axes>\"\r\n      ]\r\n     },\r\n     \"metadata\": {},\r\n     \"output_type\": \"display_data\"\r\n    }\r\n   ],\r\n   \"source\": [\r\n    \"# Affichage du rapport de classification\\n\",\r\n    \"print(classification_report(y_test, y_pred))\\n\",\r\n    \"\\n\",\r\n    \"# Matrice de confusion pour visualiser les performances du modèle\\n\",\r\n    \"from sklearn.metrics import confusion_matrix\\n\",\r\n    \"conf_matrix = confusion_matrix(y_test, y_pred)\\n\",\r\n    \"\\n\",\r\n    \"# Visualisation de la matrice de confusion\\n\",\r\n    \"# sns.heatmap(conf_matrix, annot=True, fmt=\\\"d\\\", cmap=\\\"Blues\\\")\\n\",\r\n    \"plt.ylabel('True Label')\\n\",\r\n    \"plt.xlabel('Predicted Label')\\n\",\r\n    \"plt.show()\"\r\n   ]\r\n  }\r\n ],\r\n \"metadata\": {\r\n  \"kernelspec\": {\r\n   \"display_name\": \"Python 3 (ipykernel)\",\r\n   \"language\": \"python\",\r\n   \"name\": \"python3\"\r\n  },\r\n  \"language_info\": {\r\n   \"codemirror_mode\": {\r\n    \"name\": \"ipython\",\r\n    \"version\": 3\r\n   },\r\n   \"file_extension\": \".py\",\r\n   \"mimetype\": \"text/x-python\",\r\n   \"name\": \"python\",\r\n   \"nbconvert_exporter\": \"python\",\r\n   \"pygments_lexer\": \"ipython3\",\r\n   \"version\": \"3.12.3\"\r\n  }\r\n },\r\n \"nbformat\": 4,\r\n \"nbformat_minor\": 5\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Template.ipynb b/Template.ipynb
+--- a/Template.ipynb	(revision 2db01fed0349470f343d47a7e13524b423a1bca5)
++++ b/Template.ipynb	(date 1728639112385)
+@@ -2,24 +2,61 @@
+  "cells": [
+   {
+    "cell_type": "code",
+-   "execution_count": 2,
+    "id": "d606eb0a-b7e1-4f0a-a6f2-790bfd15528a",
+-   "metadata": {},
+-   "outputs": [],
++   "metadata": {
++    "ExecuteTime": {
++     "end_time": "2024-10-11T09:23:26.184168Z",
++     "start_time": "2024-10-11T09:23:26.176378Z"
++    }
++   },
+    "source": [
+     "# Importer les bibliothèques\n",
+     "import os\n",
+     "\n",
+     "import pandas as pd\n",
+     "import matplotlib.pyplot as plt\n",
++    "import numpy as np\n",
+     "# import seaborn as sns"
+-   ]
++   ],
++   "outputs": [],
++   "execution_count": 2
+   },
+   {
+    "cell_type": "code",
+-   "execution_count": 5,
+    "id": "50edd079-7af8-49e7-8161-44c44ebf7761",
+-   "metadata": {},
++   "metadata": {
++    "ExecuteTime": {
++     "end_time": "2024-10-11T09:23:29.096763Z",
++     "start_time": "2024-10-11T09:23:28.614900Z"
++    }
++   },
++   "source": [
++    "# Charger les données usagers\n",
++    "data_fn_2021 = {\n",
++    "    'lieux':'lieux-2021.csv', \n",
++    "    'vehicules':'vehicules-2021.csv',\n",
++    "    'carcteristiques':'carcteristiques-2021.csv',\n",
++    "    'usagers':'usagers-2021.csv'\n",
++    "}\n",
++    "\n",
++    "data_fn_2022 = {\n",
++    "    'lieux':'lieux-2022.csv', \n",
++    "    'vehicules':'vehicules-2022.csv',\n",
++    "    'carcteristiques':'carcteristiques-2022.csv',\n",
++    "    'usagers':'usagers-2022.csv'\n",
++    "}\n",
++    "\n",
++    "base_fpath = './data/2022' \n",
++    "usagers_fpath = os.path.join(base_fpath, data_fn_2022['usagers'])\n",
++    "print('{}'.format(usagers_fpath))\n",
++    "\n",
++    "\n",
++    "df = pd.read_csv(usagers_fpath, sep=';')  # Attention à l'encodage et au séparateur\n",
++    "\n",
++    "\n",
++    "# Aperçu des données\n",
++    "df.head()"
++   ],
+    "outputs": [
+     {
+      "name": "stdout",
+@@ -30,6 +67,21 @@
+     },
+     {
+      "data": {
++      "text/plain": [
++       "        Num_Acc  id_usager id_vehicule num_veh  place  catu  grav  sexe  \\\n",
++       "0  202200000001  1 099 700     813 952     A01      1     1     3     1   \n",
++       "1  202200000001  1 099 701     813 953     B01      1     1     1     1   \n",
++       "2  202200000002  1 099 698     813 950     B01      1     1     4     1   \n",
++       "3  202200000002  1 099 699     813 951     A01      1     1     1     1   \n",
++       "4  202200000003  1 099 696     813 948     A01      1     1     1     1   \n",
++       "\n",
++       "   an_nais  trajet  secu1  secu2  secu3  locp actp  etatp  \n",
++       "0   2008.0       5      2      8     -1    -1   -1     -1  \n",
++       "1   1948.0       5      1      8     -1    -1   -1     -1  \n",
++       "2   1988.0       9      1      0     -1     0    0     -1  \n",
++       "3   1970.0       4      1      0     -1     0    0     -1  \n",
++       "4   2002.0       0      1      0     -1    -1   -1     -1  "
++      ],
+       "text/html": [
+        "<div>\n",
+        "<style scoped>\n",
+@@ -166,66 +218,54 @@
+        "  </tbody>\n",
+        "</table>\n",
+        "</div>"
+-      ],
+-      "text/plain": [
+-       "        Num_Acc  id_usager id_vehicule num_veh  place  catu  grav  sexe  \\\n",
+-       "0  202200000001  1 099 700     813 952     A01      1     1     3     1   \n",
+-       "1  202200000001  1 099 701     813 953     B01      1     1     1     1   \n",
+-       "2  202200000002  1 099 698     813 950     B01      1     1     4     1   \n",
+-       "3  202200000002  1 099 699     813 951     A01      1     1     1     1   \n",
+-       "4  202200000003  1 099 696     813 948     A01      1     1     1     1   \n",
+-       "\n",
+-       "   an_nais  trajet  secu1  secu2  secu3  locp actp  etatp  \n",
+-       "0   2008.0       5      2      8     -1    -1   -1     -1  \n",
+-       "1   1948.0       5      1      8     -1    -1   -1     -1  \n",
+-       "2   1988.0       9      1      0     -1     0    0     -1  \n",
+-       "3   1970.0       4      1      0     -1     0    0     -1  \n",
+-       "4   2002.0       0      1      0     -1    -1   -1     -1  "
+       ]
+      },
+-     "execution_count": 5,
++     "execution_count": 3,
+      "metadata": {},
+      "output_type": "execute_result"
+     }
+    ],
++   "execution_count": 3
++  },
++  {
++   "cell_type": "code",
++   "id": "dd7ee495-8860-4ece-b270-ce9bc8bde4b3",
++   "metadata": {
++    "ExecuteTime": {
++     "end_time": "2024-10-11T09:29:07.531685Z",
++     "start_time": "2024-10-11T09:29:07.405904Z"
++    }
++   },
+    "source": [
+-    "# Charger les données usagers\n",
+-    "data_fn_2021 = {\n",
+-    "    'lieux':'lieux-2021.csv', \n",
+-    "    'vehicules':'vehicules-2021.csv',\n",
+-    "    'carcteristiques':'carcteristiques-2021.csv',\n",
+-    "    'usagers':'usagers-2021.csv'\n",
+-    "}\n",
+-    "\n",
+-    "data_fn_2022 = {\n",
+-    "    'lieux':'lieux-2022.csv', \n",
+-    "    'vehicules':'vehicules-2022.csv',\n",
+-    "    'carcteristiques':'carcteristiques-2022.csv',\n",
+-    "    'usagers':'usagers-2022.csv'\n",
+-    "}\n",
+-    "\n",
+-    "base_fpath = './data/2022' \n",
+-    "usagers_fpath = os.path.join(base_fpath, data_fn_2022['usagers'])\n",
+-    "print('{}'.format(usagers_fpath))\n",
++    "# Information sur les colonnes et les types de données\n",
++    "print(\"##########################################################\")\n",
++    "print(\"## Information sur les colonnes et les types de données ##\")\n",
++    "print(\"##########################################################\\n\")\n",
++    "print(df.info())\n",
+     "\n",
++    "print(\"\\n#############################\")\n",
++    "print(\"## Description Statistique ##\")\n",
++    "print(\"#############################\\n\")\n",
+     "\n",
+-    "df = pd.read_csv(usagers_fpath, sep=';')  # Attention à l'encodage et au séparateur\n",
++    "# Description statistique\n",
++    "print(df.describe())\n",
+     "\n",
++    "print(\"\\n############################\")\n",
++    "print(\"## Affichage des colonnes ##\")\n",
++    "print(\"############################\\n\")\n",
+     "\n",
+-    "# Aperçu des données\n",
+-    "df.head()"
+-   ]
+-  },
+-  {
+-   "cell_type": "code",
+-   "execution_count": 6,
+-   "id": "dd7ee495-8860-4ece-b270-ce9bc8bde4b3",
+-   "metadata": {},
++    "# Affichage des colonnes\n",
++    "print(df.columns)"
++   ],
+    "outputs": [
+     {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": [
++      "##########################################################\n",
++      "## Information sur les colonnes et les types de données ##\n",
++      "##########################################################\n",
++      "\n",
+       "<class 'pandas.core.frame.DataFrame'>\n",
+       "RangeIndex: 126662 entries, 0 to 126661\n",
+       "Data columns (total 16 columns):\n",
+@@ -248,33 +288,55 @@
+       " 14  actp         126662 non-null  object \n",
+       " 15  etatp        126662 non-null  int64  \n",
+       "dtypes: float64(1), int64(11), object(4)\n",
+-      "memory usage: 15.5+ MB\n"
+-     ]
+-    },
+-    {
+-     "data": {
+-      "text/plain": [
+-       "Index(['Num_Acc', 'id_usager', 'id_vehicule', 'num_veh', 'place', 'catu',\n",
+-       "       'grav', 'sexe', 'an_nais', 'trajet', 'secu1', 'secu2', 'secu3', 'locp',\n",
+-       "       'actp', 'etatp'],\n",
+-       "      dtype='object')"
+-      ]
+-     },
+-     "execution_count": 6,
+-     "metadata": {},
+-     "output_type": "execute_result"
++      "memory usage: 15.5+ MB\n",
++      "None\n",
++      "\n",
++      "#############################\n",
++      "## Description Statistique ##\n",
++      "#############################\n",
++      "\n",
++      "            Num_Acc          place           catu           grav  \\\n",
++      "count  1.266620e+05  126662.000000  126662.000000  126662.000000   \n",
++      "mean   2.022000e+11       2.089277       1.330067       2.512143   \n",
++      "std    1.593056e+04       2.583156       0.610060       1.381566   \n",
++      "min    2.022000e+11      -1.000000       1.000000      -1.000000   \n",
++      "25%    2.022000e+11       1.000000       1.000000       1.000000   \n",
++      "50%    2.022000e+11       1.000000       1.000000       3.000000   \n",
++      "75%    2.022000e+11       2.000000       2.000000       4.000000   \n",
++      "max    2.022001e+11      10.000000       3.000000       4.000000   \n",
++      "\n",
++      "                sexe        an_nais         trajet          secu1  \\\n",
++      "count  126662.000000  123788.000000  126662.000000  126662.000000   \n",
++      "mean        1.265549    1983.432756       3.174749       1.847586   \n",
++      "std         0.570105      18.989238       2.780135       2.283796   \n",
++      "min        -1.000000    1913.000000      -1.000000      -1.000000   \n",
++      "25%         1.000000    1970.000000       0.000000       1.000000   \n",
++      "50%         1.000000    1987.000000       4.000000       1.000000   \n",
++      "75%         2.000000    1999.000000       5.000000       2.000000   \n",
++      "max         2.000000    2022.000000       9.000000       9.000000   \n",
++      "\n",
++      "               secu2          secu3           locp          etatp  \n",
++      "count  126662.000000  126662.000000  126662.000000  126662.000000  \n",
++      "mean        0.844665      -0.916352      -0.158801      -0.829815  \n",
++      "std         2.957905       0.883369       1.204472       0.615546  \n",
++      "min        -1.000000      -1.000000      -1.000000      -1.000000  \n",
++      "25%        -1.000000      -1.000000      -1.000000      -1.000000  \n",
++      "50%         0.000000      -1.000000       0.000000      -1.000000  \n",
++      "75%         0.000000      -1.000000       0.000000      -1.000000  \n",
++      "max         9.000000       9.000000       9.000000       3.000000  \n",
++      "\n",
++      "############################\n",
++      "## Affichage des colonnes ##\n",
++      "############################\n",
++      "\n",
++      "Index(['Num_Acc', 'id_usager', 'id_vehicule', 'num_veh', 'place', 'catu',\n",
++      "       'grav', 'sexe', 'an_nais', 'trajet', 'secu1', 'secu2', 'secu3', 'locp',\n",
++      "       'actp', 'etatp'],\n",
++      "      dtype='object')\n"
++     ]
+     }
+    ],
+-   "source": [
+-    "# Information sur les colonnes et les types de données\n",
+-    "df.info()\n",
+-    "\n",
+-    "# Description statistique\n",
+-    "df.describe()\n",
+-    "\n",
+-    "# Affichage des colonnes\n",
+-    "df.columns"
+-   ]
++   "execution_count": 16
+   },
+   {
+    "cell_type": "code",
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"359ad4ed-b26d-4786-b5e8-d572aaebb67d\" name=\"Changes\" comment=\"Add data files\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;kerryghan-relot&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/kerryghan-relot/LMU_BAM-Bilan-des-Accidents-Mortels.git&quot;,\r\n    &quot;accountId&quot;: &quot;6e4694b2-f931-42ed-9f3c-4f96d858b4a3&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 8\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2mKahaP7kNFaJfpOCoO1tqz3C32\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\">\r\n    <configuration default=\"true\" type=\"PythonConfigurationType\" factoryName=\"Python\">\r\n      <module name=\"LMU_BAM-Bilan-des-Accidents-Mortels\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"true\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153\" />\r\n        <option value=\"bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"359ad4ed-b26d-4786-b5e8-d572aaebb67d\" name=\"Changes\" comment=\"\" />\r\n      <created>1726827848476</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1726827848476</updated>\r\n      <workItem from=\"1726827849917\" duration=\"1686000\" />\r\n      <workItem from=\"1728636517840\" duration=\"445000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Initial Commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1726828216061</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1726828216061</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Add data files\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1728636589948</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1728636589948</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Initial Commit\" />\r\n    <MESSAGE value=\"Add data files\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Add data files\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 2db01fed0349470f343d47a7e13524b423a1bca5)
++++ b/.idea/workspace.xml	(date 1728639112500)
+@@ -4,11 +4,24 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="359ad4ed-b26d-4786-b5e8-d572aaebb67d" name="Changes" comment="Add data files" />
++    <list default="true" id="359ad4ed-b26d-4786-b5e8-d572aaebb67d" name="Changes" comment="Renamed poorly named &quot;2021.csv&quot; file.">
++      <change afterPath="$PROJECT_DIR$/MergeData_notebook.ipynb" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Template.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Template.ipynb" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/sample.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sample.ipynb" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Jupyter Notebook" />
++      </list>
++    </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -88,7 +101,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1726827848476</updated>
+       <workItem from="1726827849917" duration="1686000" />
+-      <workItem from="1728636517840" duration="445000" />
++      <workItem from="1728636517840" duration="2497000" />
+     </task>
+     <task id="LOCAL-00001" summary="Initial Commit">
+       <option name="closed" value="true" />
+@@ -106,7 +119,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1728636589948</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="Renamed poorly named &quot;2021.csv&quot; file.">
++      <option name="closed" value="true" />
++      <created>1728637243895</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1728637243895</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -126,6 +147,7 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Initial Commit" />
+     <MESSAGE value="Add data files" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Add data files" />
++    <MESSAGE value="Renamed poorly named &quot;2021.csv&quot; file." />
++    <option name="LAST_COMMIT_MESSAGE" value="Renamed poorly named &quot;2021.csv&quot; file." />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" project-jdk-name=\"C:\\Users\\user3\\miniconda3\" project-jdk-type=\"Python SDK\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 2db01fed0349470f343d47a7e13524b423a1bca5)
++++ b/.idea/misc.xml	(date 1728638165849)
+@@ -1,4 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="Black">
++    <option name="sdkName" value="C:\Users\user3\miniconda3" />
++  </component>
+   <component name="ProjectRootManager" version="2" project-jdk-name="C:\Users\user3\miniconda3" project-jdk-type="Python SDK" />
+ </project>
+\ No newline at end of file
+Index: MergeData_notebook.ipynb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/MergeData_notebook.ipynb b/MergeData_notebook.ipynb
+new file mode 100644
+--- /dev/null	(date 1728639091406)
++++ b/MergeData_notebook.ipynb	(date 1728639091406)
+@@ -0,0 +1,37 @@
++{
++ "cells": [
++  {
++   "cell_type": "code",
++   "execution_count": null,
++   "id": "initial_id",
++   "metadata": {
++    "collapsed": true
++   },
++   "outputs": [],
++   "source": [
++    ""
++   ]
++  }
++ ],
++ "metadata": {
++  "kernelspec": {
++   "display_name": "Python 3",
++   "language": "python",
++   "name": "python3"
++  },
++  "language_info": {
++   "codemirror_mode": {
++    "name": "ipython",
++    "version": 2
++   },
++   "file_extension": ".py",
++   "mimetype": "text/x-python",
++   "name": "python",
++   "nbconvert_exporter": "python",
++   "pygments_lexer": "ipython2",
++   "version": "2.7.6"
++  }
++ },
++ "nbformat": 4,
++ "nbformat_minor": 5
++}
