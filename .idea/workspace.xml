@@ -4,17 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="359ad4ed-b26d-4786-b5e8-d572aaebb67d" name="Changes" comment="Kerryghan: Added merged_data 2022">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="359ad4ed-b26d-4786-b5e8-d572aaebb67d" name="Changes" comment="Kerryghan: Updated MergeData_notebook.ipynb and corrected some errors in the merged_data.csv.">
+      <change afterPath="$PROJECT_DIR$/MergeData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MergeData_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/MergeData_notebook.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/2022/merged_data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,8 +85,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
-        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
       </set>
     </attachedChunks>
   </component>
@@ -95,7 +100,8 @@
       <updated>1726827848476</updated>
       <workItem from="1726827849917" duration="1686000" />
       <workItem from="1728636517840" duration="445000" />
-      <workItem from="1728741379214" duration="17650000" />
+      <workItem from="1728741379214" duration="18641000" />
+      <workItem from="1728765954821" duration="5875000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -129,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728649464250</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Kerryghan: Updated MergeData_notebook.ipynb and corrected some errors in the merged_data.csv.">
+      <option name="closed" value="true" />
+      <created>1728764504552</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728764504552</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +165,7 @@
     <MESSAGE value="Add data files" />
     <MESSAGE value="Kerryghan: Nothing much, just a bit of printing" />
     <MESSAGE value="Kerryghan: Added merged_data 2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kerryghan: Added merged_data 2022" />
+    <MESSAGE value="Kerryghan: Updated MergeData_notebook.ipynb and corrected some errors in the merged_data.csv." />
+    <option name="LAST_COMMIT_MESSAGE" value="Kerryghan: Updated MergeData_notebook.ipynb and corrected some errors in the merged_data.csv." />
   </component>
 </project>
