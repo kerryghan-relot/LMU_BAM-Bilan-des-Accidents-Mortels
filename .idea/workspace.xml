@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="359ad4ed-b26d-4786-b5e8-d572aaebb67d" name="Changes" comment="Kerryghan: Made a clean and usable standalone script PcaOnData.py">
+    <list default="true" id="359ad4ed-b26d-4786-b5e8-d572aaebb67d" name="Changes" comment="Kerryghan: Fix mismatched labels on ComponentVsAccuracy graph">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PcaOnData.py" beforeDir="false" afterPath="$PROJECT_DIR$/PcaOnData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Template.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,18 +45,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.PcaOnData.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="LMU_BAM-Bilan-des-Accidents-Mortels" />
@@ -105,7 +106,7 @@
       <workItem from="1728812275134" duration="378000" />
       <workItem from="1728915759066" duration="7351000" />
       <workItem from="1729703283892" duration="18973000" />
-      <workItem from="1730537481469" duration="1812000" />
+      <workItem from="1730537481469" duration="6926000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -163,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730538428556</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Kerryghan: Fix mismatched labels on ComponentVsAccuracy graph">
+      <option name="closed" value="true" />
+      <created>1730539387135</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730539387135</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +197,7 @@
     <MESSAGE value="Kerryghan: Updated MergeData_notebook.ipynb and corrected some errors in the merged_data.csv." />
     <MESSAGE value="Kerryghan: Made a clean and usable standalone script MergeData.py" />
     <MESSAGE value="Kerryghan: Made a clean and usable standalone script PcaOnData.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kerryghan: Made a clean and usable standalone script PcaOnData.py" />
+    <MESSAGE value="Kerryghan: Fix mismatched labels on ComponentVsAccuracy graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kerryghan: Fix mismatched labels on ComponentVsAccuracy graph" />
   </component>
 </project>
