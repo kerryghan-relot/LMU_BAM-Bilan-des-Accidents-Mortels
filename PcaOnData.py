@@ -103,8 +103,8 @@ class PcaOnData:
         plt.plot(accuracies)
         plt.suptitle(f"{self.classifier_name} Accuracy with different number of components ")
         plt.title("red line being the accuracy of the orignal data", color='grey')
-        plt.ylabel("N first axis after PCA")
-        plt.xlabel("Accuracy")
+        plt.xlabel("N first axis after PCA")
+        plt.ylabel("Accuracy")
         plt.axhline(self.original_accuracy, color='r')
         plt.text(-3.5, self.original_accuracy, "Original\nAccuracy",
                  horizontalalignment='center', verticalalignment='center', weight='bold', style="italic")
