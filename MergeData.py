@@ -31,9 +31,8 @@ Les features qui ont été modifiées:
     - carcteristiques.com : conversion des numéros de commune en numéros contigue
 Toutes les features ont été convertis en entiers 8bit (int8), à l'exception de:
     - Num_Acc : int64
-    - com : int 16
+    - com : int16
     - larrout : int16
-
 """
 
 

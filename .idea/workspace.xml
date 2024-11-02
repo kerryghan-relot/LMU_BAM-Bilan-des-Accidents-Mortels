@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="359ad4ed-b26d-4786-b5e8-d572aaebb67d" name="Changes" comment="Kerryghan: Updated MergeData_notebook.ipynb and corrected some errors in the merged_data.csv.">
-      <change afterPath="$PROJECT_DIR$/MergeData.py" afterDir="false" />
+    <list default="true" id="359ad4ed-b26d-4786-b5e8-d572aaebb67d" name="Changes" comment="Kerryghan: Made a clean and usable standalone script MergeData.py">
+      <change afterPath="$PROJECT_DIR$/PcaOnData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_10_2024_11_15_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_10_2024_11_15__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MergeData_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/MergeData_notebook.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MergeData.py" beforeDir="false" afterPath="$PROJECT_DIR$/MergeData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Template.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +105,11 @@
       <workItem from="1726827849917" duration="1686000" />
       <workItem from="1728636517840" duration="445000" />
       <workItem from="1728741379214" duration="18641000" />
-      <workItem from="1728765954821" duration="5875000" />
+      <workItem from="1728765954821" duration="6125000" />
+      <workItem from="1728812275134" duration="378000" />
+      <workItem from="1728915759066" duration="7351000" />
+      <workItem from="1729703283892" duration="18973000" />
+      <workItem from="1730537481469" duration="813000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -143,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728764504552</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Kerryghan: Made a clean and usable standalone script MergeData.py">
+      <option name="closed" value="true" />
+      <created>1728776624166</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728776624166</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +182,7 @@
     <MESSAGE value="Kerryghan: Nothing much, just a bit of printing" />
     <MESSAGE value="Kerryghan: Added merged_data 2022" />
     <MESSAGE value="Kerryghan: Updated MergeData_notebook.ipynb and corrected some errors in the merged_data.csv." />
-    <option name="LAST_COMMIT_MESSAGE" value="Kerryghan: Updated MergeData_notebook.ipynb and corrected some errors in the merged_data.csv." />
+    <MESSAGE value="Kerryghan: Made a clean and usable standalone script MergeData.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kerryghan: Made a clean and usable standalone script MergeData.py" />
   </component>
 </project>
