@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="359ad4ed-b26d-4786-b5e8-d572aaebb67d" name="Changes" comment="Kerryghan: Fix file naming to avoid filename collisions">
+    <list default="true" id="359ad4ed-b26d-4786-b5e8-d572aaebb67d" name="Changes" comment="Kerryghan: DimensionReduction.ipynb, accuracy improvement by deleting catu and locp">
+      <change afterPath="$PROJECT_DIR$/PcaOnData_scaled.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DimensionReduction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DimensionReduction.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -48,6 +51,7 @@
     &quot;Python.PcaOnData.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Documents/Proton Drive/My files/Cours/Méthodes Classiques/LMU_BAM-Bilan-des-Accidents-Mortels&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -56,6 +60,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Proton Drive\My files\Cours\Méthodes Classiques\LMU_BAM-Bilan-des-Accidents-Mortels" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="LMU_BAM-Bilan-des-Accidents-Mortels" />
@@ -105,7 +114,11 @@
       <workItem from="1728915759066" duration="7351000" />
       <workItem from="1729703283892" duration="18973000" />
       <workItem from="1730537481469" duration="11272000" />
-      <workItem from="1730551080356" duration="594000" />
+      <workItem from="1730551080356" duration="10562000" />
+      <workItem from="1730669354132" duration="3397000" />
+      <workItem from="1730675545252" duration="1506000" />
+      <workItem from="1730742396554" duration="5111000" />
+      <workItem from="1730790853836" duration="574000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -179,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730545184064</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Kerryghan: DimensionReduction.ipynb, accuracy improvement by deleting catu and locp">
+      <option name="closed" value="true" />
+      <created>1730563872466</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730563872466</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +227,7 @@
     <MESSAGE value="Kerryghan: Made a clean and usable standalone script PcaOnData.py" />
     <MESSAGE value="Kerryghan: Fix mismatched labels on ComponentVsAccuracy graph" />
     <MESSAGE value="Kerryghan: Fix file naming to avoid filename collisions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kerryghan: Fix file naming to avoid filename collisions" />
+    <MESSAGE value="Kerryghan: DimensionReduction.ipynb, accuracy improvement by deleting catu and locp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kerryghan: DimensionReduction.ipynb, accuracy improvement by deleting catu and locp" />
   </component>
 </project>
