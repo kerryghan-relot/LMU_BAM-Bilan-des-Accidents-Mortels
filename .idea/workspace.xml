@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="359ad4ed-b26d-4786-b5e8-d572aaebb67d" name="Changes" comment="Kerryghan: DimensionReduction.ipynb, accuracy improvement by deleting catu and locp">
-      <change afterPath="$PROJECT_DIR$/PcaOnData_scaled.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DimensionReduction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DimensionReduction.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="359ad4ed-b26d-4786-b5e8-d572aaebb67d" name="Changes" comment="Kerryghan: Add more comparison with scaled/unscaled data and reduced/non reduced." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +114,7 @@
       <workItem from="1730669354132" duration="3397000" />
       <workItem from="1730675545252" duration="1506000" />
       <workItem from="1730742396554" duration="5111000" />
-      <workItem from="1730790853836" duration="574000" />
+      <workItem from="1730790853836" duration="854000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -200,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730563872466</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Kerryghan: Add more comparison with scaled/unscaled data and reduced/non reduced.">
+      <option name="closed" value="true" />
+      <created>1730791700145</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1730791700145</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +232,7 @@
     <MESSAGE value="Kerryghan: Fix mismatched labels on ComponentVsAccuracy graph" />
     <MESSAGE value="Kerryghan: Fix file naming to avoid filename collisions" />
     <MESSAGE value="Kerryghan: DimensionReduction.ipynb, accuracy improvement by deleting catu and locp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kerryghan: DimensionReduction.ipynb, accuracy improvement by deleting catu and locp" />
+    <MESSAGE value="Kerryghan: Add more comparison with scaled/unscaled data and reduced/non reduced." />
+    <option name="LAST_COMMIT_MESSAGE" value="Kerryghan: Add more comparison with scaled/unscaled data and reduced/non reduced." />
   </component>
 </project>
