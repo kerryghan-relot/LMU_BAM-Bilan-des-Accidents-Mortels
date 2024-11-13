@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="359ad4ed-b26d-4786-b5e8-d572aaebb67d" name="Changes" comment="Kerryghan: Add more comparison with scaled/unscaled data and reduced/non reduced." />
+    <list default="true" id="359ad4ed-b26d-4786-b5e8-d572aaebb67d" name="Changes" comment="Kerryghan: Add some stuff in the article">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BAM2024.odt" beforeDir="false" afterPath="$PROJECT_DIR$/BAM2024.odt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,6 +118,8 @@
       <workItem from="1730675545252" duration="1506000" />
       <workItem from="1730742396554" duration="5111000" />
       <workItem from="1730790853836" duration="854000" />
+      <workItem from="1731394933424" duration="1625000" />
+      <workItem from="1731481792102" duration="3645000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -204,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730791700145</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Kerryghan: Add some stuff in the article">
+      <option name="closed" value="true" />
+      <created>1731395136088</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1731395136088</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +246,7 @@
     <MESSAGE value="Kerryghan: Fix file naming to avoid filename collisions" />
     <MESSAGE value="Kerryghan: DimensionReduction.ipynb, accuracy improvement by deleting catu and locp" />
     <MESSAGE value="Kerryghan: Add more comparison with scaled/unscaled data and reduced/non reduced." />
-    <option name="LAST_COMMIT_MESSAGE" value="Kerryghan: Add more comparison with scaled/unscaled data and reduced/non reduced." />
+    <MESSAGE value="Kerryghan: Add some stuff in the article" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kerryghan: Add some stuff in the article" />
   </component>
 </project>
