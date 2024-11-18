@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="359ad4ed-b26d-4786-b5e8-d572aaebb67d" name="Changes" comment="Kerryghan: Add some stuff in the article">
+    <list default="true" id="359ad4ed-b26d-4786-b5e8-d572aaebb67d" name="Changes" comment="Kerryghan: Completed the paper and added a first draft of it as pdf.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BAM2024.odt" beforeDir="false" afterPath="$PROJECT_DIR$/BAM2024.odt" afterDir="false" />
     </list>
@@ -120,6 +120,10 @@
       <workItem from="1730790853836" duration="854000" />
       <workItem from="1731394933424" duration="1625000" />
       <workItem from="1731481792102" duration="3645000" />
+      <workItem from="1731500832814" duration="1450000" />
+      <workItem from="1731519431869" duration="1194000" />
+      <workItem from="1731586792436" duration="49000" />
+      <workItem from="1731915371393" duration="5236000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -217,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731395136088</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Kerryghan: Completed the paper and added a first draft of it as pdf.">
+      <option name="closed" value="true" />
+      <created>1731501079281</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1731501079281</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +259,7 @@
     <MESSAGE value="Kerryghan: DimensionReduction.ipynb, accuracy improvement by deleting catu and locp" />
     <MESSAGE value="Kerryghan: Add more comparison with scaled/unscaled data and reduced/non reduced." />
     <MESSAGE value="Kerryghan: Add some stuff in the article" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kerryghan: Add some stuff in the article" />
+    <MESSAGE value="Kerryghan: Completed the paper and added a first draft of it as pdf." />
+    <option name="LAST_COMMIT_MESSAGE" value="Kerryghan: Completed the paper and added a first draft of it as pdf." />
   </component>
 </project>
