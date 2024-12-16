@@ -35,7 +35,7 @@ class PcaOnScaledData:
         self.reduced_data = self.PCA_object.fit_transform(self.original_data)
 
         self.PCA_object_scaled = PCA(random_state=random_state)
-        self.reduced_data_scaled = self.PCA_object_scaled.fit_transform( StandardScaler().fit_transform(self.scaled_data) )
+        self.reduced_data_scaled = self.PCA_object_scaled.fit_transform( self.scaled_data )
 
         self.random_state = random_state
         self.test_size = test_size

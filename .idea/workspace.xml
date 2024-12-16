@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="359ad4ed-b26d-4786-b5e8-d572aaebb67d" name="Changes" comment="Kerryghan: Completed the paper and added a first draft of it as pdf.">
+    <list default="true" id="359ad4ed-b26d-4786-b5e8-d572aaebb67d" name="Changes" comment="Kerryghan: Cleaned and rename ACP_notebook_clement.ipynb (previously &quot;MergedData_notebook_acp.ipynb&quot;) and continued research paper.">
+      <change beforePath="$PROJECT_DIR$/.idea/LMU_BAM-Bilan-des-Accidents-Mortels.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LMU_BAM-Bilan-des-Accidents-Mortels.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BAM2024.odt" beforeDir="false" afterPath="$PROJECT_DIR$/BAM2024.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ACP_notebook_clement.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ACP_notebook_clement.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BAM2024.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/BAM2024.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DimensionReduction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/DimensionReduction.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PcaOnData_scaled.py" beforeDir="false" afterPath="$PROJECT_DIR$/PcaOnData_scaled.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/ComponentVsVariance_UnpickeledData.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/ComponentVsVariance_UnpickeledData.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +56,7 @@
   &quot;keyToString&quot;: {
     &quot;Python.PcaOnData.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Documents/Proton Drive/My files/Cours/Méthodes Classiques/LMU_BAM-Bilan-des-Accidents-Mortels&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -92,8 +100,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
-        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PY-243.21565.199" />
+        <option value="bundled-python-sdk-cab1f2013843-4ae2d6a61b08-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
@@ -123,7 +131,17 @@
       <workItem from="1731500832814" duration="1450000" />
       <workItem from="1731519431869" duration="1194000" />
       <workItem from="1731586792436" duration="49000" />
-      <workItem from="1731915371393" duration="5236000" />
+      <workItem from="1731915371393" duration="5754000" />
+      <workItem from="1731921489131" duration="787000" />
+      <workItem from="1731930394695" duration="1809000" />
+      <workItem from="1731932252102" duration="3407000" />
+      <workItem from="1731944180450" duration="1700000" />
+      <workItem from="1731953901408" duration="4584000" />
+      <workItem from="1731966234926" duration="2921000" />
+      <workItem from="1732275818605" duration="446000" />
+      <workItem from="1732300264648" duration="671000" />
+      <workItem from="1732361527406" duration="218000" />
+      <workItem from="1733748979347" duration="1657000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -229,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731501079281</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Kerryghan: Cleaned and rename ACP_notebook_clement.ipynb (previously &quot;MergedData_notebook_acp.ipynb&quot;) and continued research paper.">
+      <option name="closed" value="true" />
+      <created>1731921107894</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1731921107894</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +286,7 @@
     <MESSAGE value="Kerryghan: Add more comparison with scaled/unscaled data and reduced/non reduced." />
     <MESSAGE value="Kerryghan: Add some stuff in the article" />
     <MESSAGE value="Kerryghan: Completed the paper and added a first draft of it as pdf." />
-    <option name="LAST_COMMIT_MESSAGE" value="Kerryghan: Completed the paper and added a first draft of it as pdf." />
+    <MESSAGE value="Kerryghan: Cleaned and rename ACP_notebook_clement.ipynb (previously &quot;MergedData_notebook_acp.ipynb&quot;) and continued research paper." />
+    <option name="LAST_COMMIT_MESSAGE" value="Kerryghan: Cleaned and rename ACP_notebook_clement.ipynb (previously &quot;MergedData_notebook_acp.ipynb&quot;) and continued research paper." />
   </component>
 </project>
